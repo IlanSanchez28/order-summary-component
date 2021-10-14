@@ -1,1 +1,25 @@
 /*Here goes your css code*/
+:root{
+
+    --headline2: bolder;
+}
+
+body{
+
+    background-color: rgb(157, 93, 170);
+}
+
+.imagen-principal{
+    
+    text-align: center;
+}
+
+.bold-letra h1{
+ 
+    text-align: center;
+    font-weight: var(--headline2);
+
+    font-family: 'Red Hat Display', sans-serif;
+    color: blue;
+
+}
