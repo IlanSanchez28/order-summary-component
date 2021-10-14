@@ -1,12 +1,9 @@
 /*Here goes your css code*/
-:root{
-
-    --headline2: bolder;
-}
 
 body{
 
-    background-color: rgb(157, 93, 170);
+    /*background: linear-gradient(-45deg, #788cff, #639278);*/
+    background-color: white;
 }
 
 .imagen-principal{
@@ -14,12 +11,54 @@ body{
     text-align: center;
 }
 
-.bold-letra h1{
+.texto h1{
  
-    text-align: center;
-    font-weight: var(--headline2);
-
+    font-weight: 900;
+    text-align: center; 
     font-family: 'Red Hat Display', sans-serif;
     color: blue;
-
 }
+
+.parrafo{
+    
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.button{    
+    text-align: center;    
+}
+
+#botonmorado{
+   
+    background-color: darkblue;
+    color: white;
+    padding: 16px 100px;
+    border-radius: 20px;
+      
+}
+
+#buttoncancel{
+   
+    background-color: white;
+    color:black;
+    padding: 16px 100px;
+    border-radius: 20px;
+    border:none
+      
+}
+
+.botonytexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.botonytexto a{
+
+    color: rebeccapurple;
+}
+
