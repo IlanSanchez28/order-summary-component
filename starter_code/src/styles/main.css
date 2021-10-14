@@ -13,10 +13,10 @@ body{
 
 .texto h1{
  
-    font-weight: 900;
+    font-weight: bold;
     text-align: center; 
     font-family: 'Red Hat Display', sans-serif;
-    color: blue;
+    color: black;
 }
 
 .parrafo{
@@ -59,6 +59,6 @@ body{
 
 .botonytexto a{
 
-    color: rebeccapurple;
+    color: purple;
 }
 
